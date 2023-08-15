@@ -1,0 +1,22 @@
+form {
+  border: 2px solid rgb(218, 217, 217);
+  height: 30px;
+  width: 290px;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 25px;
+  position: relative;
+}
+input {
+  height: 25px;
+  width: 250px;
+}
+
+button {
+  height: 28px;
+  background-color: rgb(218, 217, 217);
+  border-radius: 25px;
+  position: absolute;
+  right: 0px;
+}

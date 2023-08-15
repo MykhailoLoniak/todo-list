@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  background-color: rgb(218, 217, 217);
+  border-radius: 25px;
+
+  width: 290px;
+  padding-left: 15px;
+  margin-top: 3px;
+  margin-left: 5px;
+  align-items: center;
+}
+p,
+.img,
+span {
+  display: inline-block;
+  font-size: 25px;
+}
+p {
+  font-size: 15px;
+}
+.control {
+  margin-left: auto; /* Використовуємо margin-left: auto, щоб розташувати .control справа */
+  display: flex; /* Використовуємо flex для контролю */
+  align-items: center; /* Вирівнювати елементи в .control вертикально */
+  margin-right: 15px;
+}
+.clicked {
+  text-decoration: line-through;
+  background-color: gray;
+}
